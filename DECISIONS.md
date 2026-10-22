@@ -1,0 +1,7 @@
+# Design Decisions
+
+When I first looked at the original code, I couldn't help but notice some of the function names were very vague. I decided to change them because I wanted someone reading my code to understand what the functions do without having to figure it out for themselves. Like for example, I changed `do_math_stuff` to `scale_numbers_by_parity` because the function changes numbers based on whether they're even or odd. I also renamed variables like `list1` and `list2` to `numbers` and `words` because they help explain what information is being used.
+
+Another decision that I made was to replace the original loops with list comprehensions. The reason why I did this was because I wanted to make the code shorter without changing how the program works. For the string function, I used `join()` to combine the words with spaces between them. I also kept `strip()` to remove extra spaces at the beginning and end. I think these changes help make the program more organized and easier to work with in the future. 
+
+And then lastly, I added docstrings and comments because I wanted other people to understand my code and the reasons why I made my changes. The docstrings help explain what each function does, while the comments explain why I made certain decisions. I also made sure that the program still produced the same results after I made my changes. If I needed to update this program later, having clear function/variable names and documentation would make it easier to understand what I originally did and was thinking of.
