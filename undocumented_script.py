@@ -23,7 +23,7 @@ def format_words_by_length(words):
     Returns:
         str: The formatted words joined together.
     """
-    # Join the words with spaces so we do not need to remove extra spaces later.
+    # Join the words with spaces and remove extra spaces at the end.
     return " ".join([
         word.upper() if len(word) > 5 else word.lower()
         for word in words
