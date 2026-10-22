@@ -13,10 +13,10 @@ Another thing that I noticed was that the program uses loops to process numbers 
 
 # Final Code Review
 ### 1. Unclear Function and Variable Names
-First of all, I started by changing names like `do_math_stuff` to `scale_numbers_by_parity` and `do_strinf_stuff` to `format_words_by_length`. This helps make the code easier to understand because someone reading the code can get an idea of what each function does by just looking at its name.
+First of all, I started by changing names like `do_math_stuff` to `scale_numbers_by_parity` and `do_string_stuff` to `format_words_by_length`. This helps make the code easier to understand because someone reading the code can get an idea of what each function does by just looking at its name.
 
 ### 2. Missing Documentation
-I added docstrings to all three functions to help explain their purpose. I also added some comments to explain why O kept the original calculations and how I combined the words. This will help other people  understand my actions without having to figure everything out themselves. 
+I added docstrings to all three functions to help explain their purpose. I also added some comments to explain why I kept the original calculations and how I combined the words. This will help other people  understand my actions without having to figure everything out themselves. 
 
 ### 3. Code Could be Simplified
 I replaced the original loops with list comprehensions to make the code shorter and easier to read. I also used `join()` to combine the words instead of adding spaces one at a time. When I tested the program, I was able to get the exact same results as the original code.
