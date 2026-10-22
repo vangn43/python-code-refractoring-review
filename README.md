@@ -24,10 +24,10 @@ python undocumented_script.py
 5. The program will display the processed numbers and words.
 
 ## Expected Output
-
-  Processed Numbers: [3, 4, 9, 8, 15, 12, 21]
-  Processed Strings: apple BANANA kiwi GRAPEFRUIT CHERRY
-
+```bash
+Processed Numbers: [3, 4, 9, 8, 15, 12, 21]
+Processed Strings: apple BANANA kiwi GRAPEFRUIT CHERRY
+```
 ## Project Files
 
 - `undocumented_script.py` = The updated Python program.
